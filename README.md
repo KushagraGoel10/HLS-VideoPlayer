@@ -1,8 +1,12 @@
-# React + Vite
+HLS VideoPlayer ->
+( HTTP LIVE STREAMING Player) 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I've coded this videoplayer using video.js to optimize our react app for videos. 
+It has some features such as - 
 
-Currently, two official plugins are available:
+1) It loads videos in chunks.
+2) It adapts to user's internet speed i.e quality of the video depends on how fast a user's internet is.
+3) No need to download the complete video as it loads in chunks.
+4) It reduces our react app load.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I have used Video.js here as it supports both HLS and DASH. 
