@@ -35,6 +35,7 @@ const VideoPlayer = ({ videoUrl }) => {
     };
   }, [videoUrl]);
 
+// 
   return (
     <div>
       <video ref={videoRef} className="video-js vjs-big-play-centered" />

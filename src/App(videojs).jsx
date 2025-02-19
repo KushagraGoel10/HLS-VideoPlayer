@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="text-center">HLS Video Player ( Optimized) </h1>
+      <h1 className="text-center">HLS Video Player ( Optimized ) </h1>
       <VideoPlayer videoUrl={videoUrl} />
       <h1>2nd video</h1>
       <VideoPlayer videoUrl= {videoUrl2} />
